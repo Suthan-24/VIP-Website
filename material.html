@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <title>🏗️ VIP WEB</title>
+
+   <!--google fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet">
+
+   <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+
+
+   <!--My css-->
+
+   <link rel="stylesheet" href="Css/style.CSS">
+
+   <!--font awesome icons-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+   <section class="Material-main-header">
+
+      <nav>
+         <a href="index.html"><img src="images/logo.png"></a>
+
+         <!-- NAVIGATION MENU -->
+         <div class="nav-links" id="sidenav">
+
+            <!-- Close Button -->
+            <i class="fa-solid fa-xmark" id="closeBtn" onclick="closeNavbar()"></i>
+
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="service.html">Service</a></li>
+               <li><a href="project.html">Projects</a></li>
+               <li><a href="material.html">Material</a></li>
+               <li><a href="contact.html" class="contact-li-btn">Contact Us</a></li>
+            </ul>
+         </div>
+
+         <!-- Toggle Button -->
+         <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+      </nav>
+      <h1 class="about-title">Our Materials</h1>
+   </section>
+
+
+   <!---Table-->
+   <section>
+   <table class="material-table">
+    <tr>
+        <th>Material Name</th>
+        <th>Unit</th>
+        <th>Grade / Type</th>
+        <th>Approx Price</th>
+    </tr>
+
+    <tr>
+        <td>Cement</td>
+        <td>Bag</td>
+        <td>OPC 53</td>
+        <td>Rs. 1,850</td>
+    </tr>
+
+    <tr>
+        <td>Steel</td>
+        <td>Kg</td>
+        <td>TMT Fe500</td>
+        <td>Rs. 1,500</td>
+    </tr>
+
+    <tr>
+        <td>Sand</td>
+        <td>Cubic ft</td>
+        <td>River Sand</td>
+        <td>Rs.15000</td>
+    </tr>
+
+    <tr>
+        <td>Bricks</td>
+        <td>Piece</td>
+        <td>Red Clay</td>
+        <td>Rs.30</td>
+    </tr>
+</table>
+</section>
+
+   <!--material-->
+   <div class="material-section">
+      <form class="material-search">
+         <input type="text" id="search" placeholder="search">
+         <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+
+      <div class="materials" id="materials">
+
+
+
+         <div class="materials-box">
+            <img src="images/bricks.jpg" alt="2.img">
+            <p>Clay Bricks</p>
+         </div>
+
+         <div class="materials-box">
+            <img src="images/Cement.jpg" alt="cement.img">
+            <p>Cement Brick</p>
+         </div>
+
+
+
+         <div class="materials-box">
+            <img src="images/HCS-WALL.jpg" alt="panal.img">
+            <p>Panals</p>
+         </div>
+
+         <div class="materials-box">
+            <img src="images/OIP (3).webp">
+            <p>Interlock Brick</p>
+         </div>
+
+         <div class="materials-box">
+            <img src="images/OIP (1).webp" alt="3.img">
+            <p>Sand</p>
+         </div>
+
+         <div class="materials-box">
+            <img src="images/OIP (2).webp" alt="cement.img">
+            <p>Cement</p>
+         </div>
+
+         <div class="materials-box">
+            <img src="images/tempered-glass.webp">
+            <p>Tempered-glass</p>
+         </div>
+
+         <div class="materials-box">
+            <img src="images/alucobond-aluminum.jpg">
+            <p>Alucobond-aluminum.</p>
+         </div>
+         <div class="materials-box">
+            <img src="images/M-Sand.jpg" alt="1.img">
+            <p>M-sand</p>
+         </div>
+
+         <div class="materials-box">
+            <img src="images/Tile.jpg">
+            <p>Tile</p>
+         </div>
+
+
+         <div class="materials-box">
+            <img src="images/OIP.webp" alt="1.img">
+            <p>steels</p>
+         </div>
+
+         <div class="materials-box">
+            <img src="images/jelly-crushed-stone.webp" alt="metel.img">
+            <p>Matel</p>
+         </div>
+
+
+
+
+
+
+      </div>
+
+   </div>
+
+   <!--footer-->
+   <div class="footer">
+      <div class="footer-container">
+         <div class="footer-box-1">
+            <h2 class="heading-text"> VIP construction</h2>
+        <p>Professional construction planning and management solutions.</p>
+            <div class="footer-icon-container">
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-whatsapp"></i>
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-x-twitter"></i>
+
+            </div>
+            @2025 VIP_company.com
+         </div>
+
+      </div>
+
+
+
+      <!--header-->
+
+
+      <!--link js -->
+      <script src="Java-Script/index.js"></script>
+      <script src="Java-Script/material.js"></script>
+</body>
+
+</html>

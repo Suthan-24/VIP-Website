@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+   <html>
+
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>🏗️ VIP WEB</title>
+
+      <!--google fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+         rel="stylesheet">
+
+      <link
+         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet">
+
+
+      <!--My css-->
+
+      <link rel="stylesheet" href="Css/style.CSS">
+
+      <!--font awesome icons-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+   </head>
+
+   <body>
+      <section class="contactUs-main-header">
+
+         <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+
+            <!-- NAVIGATION MENU -->
+            <div class="nav-links" id="sidenav">
+
+               <!-- Close Button -->
+               <i class="fa-solid fa-xmark" id="closeBtn" onclick="closeNavbar()"></i>
+
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="service.html">Service</a></li>
+                  <li><a href="project.html">Projects</a></li>
+                  <li><a href="material.html">Material</a></li>
+                  <li><a href="contact.html" class="contact-li-btn">Contact Us</a></li>
+               </ul>
+            </div>
+
+            <!-- Toggle Button -->
+            <div class="navbar-menu-toggle" onclick="showNavbar()">
+               <i class="fa-solid fa-bars"></i>
+            </div>
+         </nav>
+         <h1 class="about-title">Rach Us</h1>
+      </section>
+
+
+      <!--contact us-->
+
+         <h1 class="s-head">Get In Touch</h1>
+            <p class="para">
+                Have a project in mind? We'd love to hear from you.
+                Send us a message and we'll respond as soon as possible.
+            </p>
+
+<section class="home-contact-page">
+  
+         <div class="contact-page">
+            <form onsubmit="return validateForm()" action="https://api.web3forms.com/submit" method="POST" >
+               <table class="contact-details">
+                  <tr>
+                     <td class="contact-detail"> NAME:</td>
+                     <td class="contact-detail">
+                          <input type="hidden" name="access_key" value="564decc0-ad66-4016-bb2c-b1aaa00493da"><!--web3form indexkey -->
+                        <input type="text" id="name" name="name"  placeholder="Enter your name here" required>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="contact-detail">MAIL:</td>
+                     <td class="contact-detail">
+                        <input type="mail" id="mail"  name="email" placeholder="Enter yor mail ID" required>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="contact-detail">phone NO:</td>
+                     <td class="contact-detail">
+                        <input type="number" id="phone"  name="Phone" placeholder="Enter yor phone number" required>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td class="contact-detail">MASSAGE:</td>
+                     <td class="contact-detail">
+                        <textarea id="message" name="message" rows="5" cols="50" required></textarea>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="contact-detail"></td>
+                     <td><input type="submit" class="submit-btn"></td>
+                  </tr>
+               </table>
+            </form>
+         </div>
+     
+
+
+    <!-- RIGHT: CONTACT INFO -->
+     <div class="contact-info">
+
+        <h3 >Contact Information</h3>
+
+        <p><i class="fa-solid fa-location-dot"></i> Colombo, Sri Lanka</p>
+        <p><i class="fa-solid fa-phone"></i> +94 77 123 4567</p>
+        <p><i class="fa-solid fa-envelope"></i> vipconstruction@gmail.com</p>
+
+        <div class="contact-social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+
+    </div>
+</section>
+
+      <!--location-->
+
+      <section class="location-section">
+         <div class="box">
+            <h1>Our Location </h1>
+            <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+               repellat perferendis veniam culpa soluta magni facilis aspernatur sit ipsam quidem maiores elige
+               ndi, vel explicabo corporis dolor a, repellendus fugiat rerum?
+            </p>
+
+         </div>
+         <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31681.390938636217!2d81.03841759411934!3d6.
+    988791102770541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae462167fa6dad9%3A0x84d3d072c32aa246!2sBadulla!5e0!3m2!1sen!2slk!4v1762835867035!5m2!1sen!2slk"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+
+      <!--footer-->
+      <div class="footer">
+         <div class="footer-container">
+            <div class="footer-box-1">
+               <h2 class="heading-text"> VIP construction</h2>
+              <p>Professional construction planning and management solutions.</p>
+               <div class="footer-icon-container">
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <p> @2025 VIP_company.com</p>
+               </div>
+            </div>
+
+         </div>
+
+
+
+         <!--header-->
+
+
+         <!--link js -->
+         <script src="Java-Script/index.js"></script>
+   </body>
+
+   </html>
